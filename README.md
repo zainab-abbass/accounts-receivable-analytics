@@ -95,40 +95,27 @@ Focused on:
 
 ---
 
-### Collections Performance Dashboard
+### Customer Analysis Dashboard
 
 Focused on:
 
-- Collection efficiency
-- Recovery trends
-- Monthly collection performance
-- Customer payment trends
-- Collection KPI monitoring
-- Outstanding invoice tracking
-
----
-
-### Customer Risk & Payment Behavior Dashboard
-
-Focused on:
-
-- High-risk customers
-- Delayed payment analysis
-- Customer payment patterns
+- Customer payment behavior
 - Repeat overdue customers
-- Credit exposure visibility
+- Customer outstanding balances
+- High-risk customer identification
+- Customer contribution analysis
 
 ---
 
-### Cash Flow & Working Capital Dashboard
+### Profitability Analysis Dashboard
 
 Focused on:
 
-- Receivable trends
-- Cash inflow visibility
-- Collection cycle analysis
-- Working capital insights
-- Payment forecasting support
+- Profitability trends
+- Revenue contribution
+- Customer profitability visibility
+- Margin analysis
+- Financial performance insights
 
 ---
 
@@ -219,15 +206,13 @@ accounts-receivable-analytics/
 │
 ├── README.md
 ├── AR Dashboard.pdf
-├── dataset/
-│   └── ar_data.xlsx
+├── AR Data.xlsx
 │
 ├── screenshots/
 │   ├── executive-overview.png
 │   ├── aging-analysis.png
-│   ├── collections-performance.png
-│   ├── customer-risk-analysis.png
-│   └── cashflow-insights.png
+│   ├── customer-analysis.png
+│   └── profitability-analysis.png
 ```
 
 ---
@@ -246,21 +231,24 @@ accounts-receivable-analytics/
 
 ---
 
-### Collections Performance Dashboard
+### Customer Analysis Dashboard
 
-![Collections Performance](screenshots/collections-performance.png)
-
----
-
-### Customer Risk Dashboard
-
-![Customer Risk](screenshots/customer-risk-analysis.png)
+![Customer Analysis](screenshots/customer-analysis.png)
 
 ---
 
-### Cash Flow & Working Capital Dashboard
+### Profitability Analysis Dashboard
 
-![Cash Flow](screenshots/cashflow-insights.png)
+![Profitability Analysis](screenshots/profitability-analysis.png)
+
+---
+
+## Repository Contents
+
+- README.md
+- AR Dashboard.pdf
+- AR Data.xlsx
+- Dashboard Screenshots
 
 ---
 

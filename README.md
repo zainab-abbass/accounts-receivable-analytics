@@ -182,22 +182,22 @@ accounts-receivable-analytics/
 # Dashboard Preview
 
 ## Executive Overview Dashboard
-![Executive Overview](screenshots/executive-overview-dashboard.png)
+![Executive Overview](screenshots/executive-overview.png)
 
 ---
 
 ## Aging Analysis Dashboard
-![Aging Analysis](screenshots/aging-analysis-dashboard.png)
+![Aging Analysis](screenshots/aging-analysis.png)
 
 ---
 
 ## Collections Performance Dashboard
-![Collections Performance](screenshots/collections-performance-dashboard.png)
+![Collections Performance](screenshots/collections-performance.png)
 
 ---
 
 ## Customer Risk Dashboard
-![Customer Risk](screenshots/customer-risk-dashboard.png)
+![Customer Risk](screenshots/customer-risk.png)
 
 ---
 

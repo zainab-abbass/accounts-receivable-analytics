@@ -199,14 +199,11 @@ This solution demonstrates how financial analytics can help organizations:
 
 ---
 
-## Repository Structure
-
-```text
 accounts-receivable-analytics/
 │
 ├── README.md
-├── AR Dashboard.pdf
-├── AR Data.xlsx
+├── Accounts-Receivable-Analytics-Dashboard.pdf
+├── AR-Analytics-Data.xlsx
 │
 ├── screenshots/
 │   ├── executive-overview.png

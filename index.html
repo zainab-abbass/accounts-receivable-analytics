@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accounts Receivable Analytics Dashboard — Power BI Project</title>
+<meta name="description" content="Power BI analytics for accounts receivable — receivables, collections, payment behaviour and credit risk in one decision-support framework.">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ===================== NAV ===================== -->
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="https://zainab-abbass.github.io/" class="logo" aria-label="Back to Zainab Abbas homepage"><span class="z">Z</span><span class="a">A</span></a>
+    <div class="nav__links">
+      <a href="#overview">Overview</a>
+      <a href="#showcase">Dashboards</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#contribution">My Role</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero" id="top">
+  <div class="container hero__inner">
+    <span class="tag">Finance Analytics · Power BI Project</span>
+    <h1>Accounts Receivable Analytics <span class="accent">Dashboard</span></h1>
+    <p class="subtitle">
+      A Power BI analytics solution giving full visibility into receivables,
+      collections, payment behaviour and customer credit risk.
+    </p>
+    <p class="note">
+      Built with Power BI, DAX and dimensional modeling to demonstrate executive
+      reporting, working-capital analytics and dashboard design.
+    </p>
+    <div class="hero__tags">
+      <span>Power BI</span>
+      <span>DAX Modeling</span>
+      <span>Executive Reporting</span>
+      <span>Receivables Analytics</span>
+      <span>Credit Risk</span>
+      <span>Dashboard Design</span>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== STAT STRIP ===================== -->
+<!-- TODO: adjust these figures to your real project numbers -->
+<section class="stats">
+  <div class="stat"><div class="stat__num">4</div><div class="stat__label">Executive dashboards</div></div>
+  <div class="stat"><div class="stat__num">5</div><div class="stat__label">Aging buckets</div></div>
+  <div class="stat"><div class="stat__num">25+</div><div class="stat__label">DAX measures</div></div>
+  <div class="stat"><div class="stat__num">1</div><div class="stat__label">Unified data model</div></div>
+</section>
+
+<!-- ===================== OVERVIEW ===================== -->
+<section class="section section--paper overview" id="overview">
+  <div class="narrow reveal">
+    <span class="eyebrow">Project Overview</span>
+    <h2>One view of receivables, collections and credit risk.</h2>
+    <p>
+      Working-capital teams track receivables, collections, payment behaviour and credit
+      exposure across customers, industries and account managers — usually in disconnected
+      reports that make the full picture hard to see.
+    </p>
+    <p>
+      This Power BI project consolidates those into a single analytics framework, so finance
+      leadership can monitor DSO, overdue exposure and recovery performance in one place and
+      act sooner.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== DASHBOARD SHOWCASE ===================== -->
+<section class="section showcase" id="showcase">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Dashboard Showcase</span>
+      <h2>Four connected views, one reporting model.</h2>
+      <p>Click any dashboard to view it full size.</p>
+    </div>
+
+    <div class="gallery">
+
+      <!-- Screenshots live in /screenshots:
+           ar-dashboard.png, aging-analysis-dashboard.png,
+           collections-performance-dashboard.png, customer-risk-dashboard.png -->
+
+      <article class="shot reveal">
+        <div class="shot__frame" tabindex="0" role="button" aria-label="Enlarge Executive AR Overview">
+          <span class="shot__zoom">CLICK TO ENLARGE</span>
+          <img src="screenshots/ar-dashboard.png" alt="Executive AR Overview dashboard">
+          <div class="shot__ph"><div class="bars"><i></i><i></i><i></i><i></i></div><code>screenshots/ar-dashboard.png</code></div>
+        </div>
+        <div class="shot__meta">
+          <span class="shot__num">01</span>
+          <div><h3>Executive AR Overview</h3><p>Outstanding and overdue receivables, DSO, collection efficiency and aging at a glance.</p></div>
+        </div>
+      </article>
+
+      <article class="shot reveal">
+        <div class="shot__frame" tabindex="0" role="button" aria-label="Enlarge Customer Payment Behavior">
+          <span class="shot__zoom">CLICK TO ENLARGE</span>
+          <img src="screenshots/aging-analysis-dashboard.png" alt="Customer Payment Behavior dashboard">
+          <div class="shot__ph"><div class="bars"><i></i><i></i><i></i><i></i></div><code>screenshots/aging-analysis-dashboard.png</code></div>
+        </div>
+        <div class="shot__meta">
+          <span class="shot__num">02</span>
+          <div><h3>Customer Payment Behavior</h3><p>Payment timing, delay trends, segmentation and chronic late payers.</p></div>
+        </div>
+      </article>
+
+      <article class="shot reveal">
+        <div class="shot__frame" tabindex="0" role="button" aria-label="Enlarge Collections and Recovery Performance">
+          <span class="shot__zoom">CLICK TO ENLARGE</span>
+          <img src="screenshots/collections-performance-dashboard.png" alt="Collections and Recovery Performance dashboard">
+          <div class="shot__ph"><div class="bars"><i></i><i></i><i></i><i></i></div><code>screenshots/collections-performance-dashboard.png</code></div>
+        </div>
+        <div class="shot__meta">
+          <span class="shot__num">03</span>
+          <div><h3>Collections &amp; Recovery Performance</h3><p>Cash recovery, collection efficiency and overdue resolution by aging bucket.</p></div>
+        </div>
+      </article>
+
+      <article class="shot reveal">
+        <div class="shot__frame" tabindex="0" role="button" aria-label="Enlarge Customer Risk and Credit Exposure">
+          <span class="shot__zoom">CLICK TO ENLARGE</span>
+          <img src="screenshots/customer-risk-dashboard.png" alt="Customer Risk and Credit Exposure dashboard">
+          <div class="shot__ph"><div class="bars"><i></i><i></i><i></i><i></i></div><code>screenshots/customer-risk-dashboard.png</code></div>
+        </div>
+        <div class="shot__meta">
+          <span class="shot__num">04</span>
+          <div><h3>Customer Risk &amp; Credit Exposure</h3><p>Credit exposure, utilization, risk segmentation and customers over limit.</p></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CAPABILITIES ===================== -->
+<section class="section section--ink" id="capabilities">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Dashboard Capabilities</span>
+      <h2>What the reporting framework delivers.</h2>
+    </div>
+    <div class="cards">
+      <div class="card reveal" data-n="01"><h3>Receivables Monitoring</h3><p>Track outstanding and overdue balances, DSO and collection efficiency.</p></div>
+      <div class="card reveal" data-n="02"><h3>AR Aging Analysis</h3><p>Break receivables down by aging bucket and monitor the trend.</p></div>
+      <div class="card reveal" data-n="03"><h3>Payment Behavior</h3><p>Analyze payment timing, delays and chronic late payers.</p></div>
+      <div class="card reveal" data-n="04"><h3>Collections &amp; Recovery</h3><p>Monitor cash recovery, recovery rates and top performers.</p></div>
+      <div class="card reveal" data-n="05"><h3>Credit Risk &amp; Exposure</h3><p>Track credit exposure, utilization and over-limit accounts.</p></div>
+      <div class="card reveal" data-n="06"><h3>Executive KPI Reporting</h3><p>Centralized KPI monitoring through executive dashboards.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTRIBUTION ===================== -->
+<section class="section section--paper" id="contribution">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">My Contribution</span>
+      <h2>What I built, end to end.</h2>
+    </div>
+    <div class="contrib">
+      <div class="contrib__item reveal"><span class="n">01</span><span class="t">Designed the reporting framework</span></div>
+      <div class="contrib__item reveal"><span class="n">02</span><span class="t">Built the Power BI data model</span></div>
+      <div class="contrib__item reveal"><span class="n">03</span><span class="t">Developed the DAX measures</span></div>
+      <div class="contrib__item reveal"><span class="n">04</span><span class="t">Created the KPI architecture</span></div>
+      <div class="contrib__item reveal"><span class="n">05</span><span class="t">Designed the dashboard UX</span></div>
+      <div class="contrib__item reveal"><span class="n">06</span><span class="t">Developed collections &amp; recovery analytics</span></div>
+      <div class="contrib__item reveal"><span class="n">07</span><span class="t">Created credit-risk &amp; exposure views</span></div>
+      <div class="contrib__item reveal"><span class="n">08</span><span class="t">Delivered the executive reporting solution</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" id="contact">
+  <div class="container">
+    <div class="footer__top reveal">
+      <h2>Working-capital analytics that drives decisions</h2>
+      <p>Open to conversations about Power BI, receivables analytics and business intelligence.</p>
+      <div class="footer__links">
+        <a href="https://github.com/zainab-abbass" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/zainab-abbass/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:theboardroominsights@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="footer__base">
+      <span>Power BI · Receivables Analytics · Executive Reporting · BI</span>
+      <span>© 2026 · Built with Power BI &amp; DAX</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lbClose" aria-label="Close">&times;</button>
+  <img id="lbImg" src="" alt="">
+  <div class="lightbox__cap" id="lbCap"></div>
+</div>
+
+<script>
+/* ---- enable click-to-zoom; show placeholder only if a file is missing ---- */
+document.querySelectorAll('.shot__frame').forEach(function(frame){
+  var img = frame.querySelector('img');
+  function open(){
+    var lb = document.getElementById('lightbox');
+    document.getElementById('lbImg').src = img.src;
+    document.getElementById('lbImg').alt = img.alt;
+    document.getElementById('lbCap').textContent = img.alt;
+    lb.classList.add('open'); lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden';
+  }
+  frame.addEventListener('click', function(){ if(!frame.classList.contains('is-missing')) open(); });
+  frame.addEventListener('keydown', function(e){
+    if((e.key === 'Enter' || e.key === ' ') && !frame.classList.contains('is-missing')){ e.preventDefault(); open(); }
+  });
+  img.addEventListener('error', function(){ frame.classList.add('is-missing'); });
+  if(img.complete && img.naturalWidth === 0){ frame.classList.add('is-missing'); }
+});
+
+/* ---- lightbox close ---- */
+(function(){
+  var lb = document.getElementById('lightbox');
+  function close(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+  document.getElementById('lbClose').addEventListener('click', close);
+  lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
+})();
+
+/* ---- scroll reveal ---- */
+(function(){
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+  }, { threshold:.12 });
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+</body>
+</html>
